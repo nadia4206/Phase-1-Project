@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Book Rater</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <div id="book-header">
+            <h1>My Book Rater</h2>
+        </div>
+
+        <div id="book-form">
+            <h3>Add a New Book!</h3>
+            <form class="add-new-book">
+                <label>Book Title:</label>
+                <input
+                    type="text"
+                    name="book-title"
+                    value=""
+                    placeholder="Enter Book Title"
+                    class="input-text"
+                />
+                <br />
+                <lable>Author:</lable>
+                <input
+                    type="text"
+                    name="book-author"
+                    value=""
+                    placeholder="Enter Book Author"
+                    class="input-text"
+                />
+                <br />
+                <lable>Rating:</lable>
+                <input
+                    type="text"
+                    name="book-rating"
+                    value=""
+                    placeholder="Enter Book Rating (1-5)"
+                    class="input-text"
+                />
+                <br />
+                <lable>Review:</lable>
+                <input
+                    type="text"
+                    name="book-review"
+                    value=""
+                    placeholder="Enter Book Review"
+                    class="input-text"
+                />
+                <br />
+                <input
+                    type="submit"
+                    name="book-submit"
+                    value="Add New Book"
+                    class="book-button"
+                />
+            </form>
+        </div>
+
+        <div id="book-collection"></div>
+    </body>
+</html>
