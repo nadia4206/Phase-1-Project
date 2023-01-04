@@ -1,0 +1,44 @@
+{
+"books": [
+    {
+      "id": 1,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "image_url": "https://embed.cdn.pais.scholastic.com/v1/channels/sso/products/identifiers/isbn/9780590353427/primary/renditions/700",
+      "rating":"5",
+      "review": "SO GOOD!!"
+    },
+    {
+        "id": 2,
+        "title": "Fifty Shades of Grey",
+        "author": "E.L. James",
+        "image_url": "https://m.media-amazon.com/images/I/51YNPg-gCjL._SL350_.jpg",
+        "rating":"2",
+        "review": "Too many 'murmurs'"
+      },
+      {
+        "id": 3,
+        "title": "Bridgerton: The Duke and I",
+        "author": "Julia Quinn",
+        "image_url": "https://m.media-amazon.com/images/I/51-9MXIKTrL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "rating":"4",
+        "review": "Quick and easy"
+      },
+      {
+        "id": 4,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image_url": "https://m.media-amazon.com/images/I/416K+gR7RLL._SL350_.jpg",
+        "rating":"4",
+        "review": "A true classic"
+      },
+      {
+        "id": 5,
+        "title": "The Shining",
+        "author": "Stephen King",
+        "image_url": "https://m.media-amazon.com/images/I/41ksNxnzTIL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "rating":"4",
+        "review": "Spooky scary"
+      }
+    ]
+}
