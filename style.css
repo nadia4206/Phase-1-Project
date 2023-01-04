@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(179, 221, 179);
+}
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    font-weight: 550px;
+    border: 3ch;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#book-form {
+    margin: 1rem 0;
+    flex-direction: column;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#book-form, h3 {
+    text-align: center;
+    padding: 0.25rem;
+    margin: 0.5rem 0;
+}
+
+.add-new-book {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input,
+  textarea {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: 0.30rem 0;
+    width: 150%;
+    border: 3px solid rgb(141, 196, 124);
+    background-color: white;
+  }
+
+input[type="submit"] {
+    color: rgb(223, 238, 220);
+    background-color: rgb(2, 36, 19);
+ }  
