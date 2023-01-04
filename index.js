@@ -1,4 +1,4 @@
-const url = 'http://openlibrary.org/search.json?q=harry+potter'
+const url = 'http://openlibrary.org/search.json?q='
 
 fetch(url)
 .then(res => res.json())
