@@ -11,30 +11,30 @@ h1 {
 }
 
 .card {
-    width: 38rem;
     background-color: rgb(210, 243, 210);
     overflow: hidden;
-    text-align: center;
-    border-radius: 8px;
-    padding: 15px;
-    display:inline-table;
+    border-radius: 15px;
+    padding: 1rem;
     align-items: center;
+    display: inline-grid;
+    justify-content: center;
+    margin: 1rem 2rem;
+    width: 15rem;
+    height: 26rem;
 }
 
-.card, h4{
+.card, .name{
     color: rgb(0, 0, 0);
     margin: 20px 10px 0 0;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 400;
     text-align: center;
 }
 
-.card img{
-    padding: 3px;
-    border:rgba(0, 0, 0, 0.2);
-    margin: 5px;
-    justify-content: center;
-    border-radius: 4px;
+.card .img{
+    height: 9rem;
+    width: auto;
+    justify-self: center;
 }
 
 #book-form {
@@ -45,12 +45,11 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 100%;
+    text-align: center;
 }
 
-#book-form, h3 {
-    text-align: center;
-    padding: 0.25rem;
-    margin: 0.5rem 0;
+h3 {
+    font-size: 25px;
 }
 
 .add-new-book {
