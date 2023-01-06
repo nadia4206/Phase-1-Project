@@ -1,65 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>My Book Rater</title>
+        <title>My Favorite TV Shows</title>
         <link rel="stylesheet" href="style.css">
         <script defer src="index.js"></script>
     </head>
     <body>
-        <div id="book-header">
-            <h1>My Book Rater</h2>
+        <div id="tv-header">
+            <h1>My Favorite TV Shows</h2>
         </div>
-
-        <div class="book-collection"></div>
         
-        <div id="book-form">
-            <h3>Add a New Book!</h3>
-            <form class="add-new-book">
-                <label>Book Title:</label>
+        <div id="tv-form">
+            <h3>Add a New TV Show</h3>
+            <form class="add-new-tv-show">
+                <label>Show Name:</label>
                 <input
+                    id="show-name"
                     type="text"
-                    name="book-title"
+                    name="show-name"
                     value=""
-                    placeholder="Enter Book Title"
-                    class="input-text"
-                />
-                <br />
-                <lable>Author:</lable>
-                <input
-                    type="text"
-                    name="book-author"
-                    value=""
-                    placeholder="Enter Book Author"
-                    class="input-text"
-                />
-                <br />
-                <lable>Rating:</lable>
-                <input
-                    type="text"
-                    name="book-rating"
-                    value=""
-                    placeholder="Enter Book Rating (1-5)"
-                    class="input-text"
-                />
-                <br />
-                <lable>Review:</lable>
-                <input
-                    type="text"
-                    name="book-review"
-                    value=""
-                    placeholder="Enter Book Review"
+                    placeholder="Enter TV Show Name"
                     class="input-text"
                 />
                 <br />
                 <input
                     type="submit"
-                    name="book-submit"
-                    value="Add New Book"
-                    class="book-button"
+                    name="show-submit"
+                    value="Add New Show"
+                    class="add-show-button"
                 />
             </form>
         </div>
-
-        <div id="book-collection"></div>
+        <br />
+        <div id="tv-show-collection">
+        </div>
     </body>
 </html>
