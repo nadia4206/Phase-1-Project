@@ -12,32 +12,64 @@ h1 {
 
 .card {
     background-color: rgb(210, 243, 210);
-    overflow: hidden;
     border-radius: 15px;
     padding: 1rem;
     align-items: center;
     display: inline-grid;
     justify-content: center;
     margin: 1rem 2rem;
-    width: 15rem;
-    height: 26rem;
+    width: 20rem;
+    height: 40rem;
 }
 
-.card, .name{
+.card, .title{
     color: rgb(0, 0, 0);
-    margin: 20px 10px 0 0;
-    font-size: 1.6rem;
-    font-weight: 400;
+    margin: 10px 5px 0 0;
+    font-size: 1.5rem;
+    font-weight: 800;
     text-align: center;
 }
 
 .card .img{
-    height: 9rem;
+    height: 15rem;
     width: auto;
     justify-self: center;
 }
 
-#book-form {
+/* .card .pAirDate{
+    color: rgb(0, 0, 0);
+    margin: 20px 10px 0 0;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+} */
+
+/* .card .pAverageRating{
+    color: rgb(0, 0, 0);
+    margin: 20px 10px 0 0;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+} */
+
+.card .average-rating{
+    color: rgb(0, 0, 0);
+    margin: 20px 10px 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card .likes{
+    color: rgb(0, 0, 0);
+    margin: 20px 10px 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+#tv-form {
     margin: 1rem 0;
     flex-direction: column;
     width: 300px;
@@ -52,7 +84,7 @@ h3 {
     font-size: 25px;
 }
 
-.add-new-book {
+.add-new-tv-show {
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -74,3 +106,13 @@ input[type="submit"] {
     color: rgb(223, 238, 220);
     background-color: rgb(2, 36, 19);
  }  
+
+ button {
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: max-content;
+    font-size: 15px;
+    justify-self: center;
+ }
