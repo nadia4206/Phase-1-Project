@@ -14,8 +14,8 @@ This project is part of Flatiron Schools software Engineering program, Phase 1. 
 - Run `json-server --watch db.json` to get the backend started
 - Open the `index.html` file on your browser
 ## Usage
--With this app you are able to search your favorite shows
-- You will able to click on different shows
+-With this app you are able to search your favorite shows and add them to your TV Show List
+- You will able to hover over shows to see their original air date
 -You will be able to like searched shows
 -Application will always return a show
 ## Project status
